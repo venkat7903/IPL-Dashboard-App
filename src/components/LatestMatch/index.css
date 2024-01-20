@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.latest-match-title-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #fff;
+}
+
+.latest-match-details {
+  list-style-type: none;
+  background: #0f172a;
+  border-radius: 12px;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-match-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logo-team-match-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-bottom: 3px solid #475569;
+}
+
+.competing-team {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.match-date {
+  font-size: 18px;
+}
+
+.match-info {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.competing-team-logo {
+  width: 75px;
+}
+
+.additional-match-info-container {
+  padding: 10px 15px;
+}
+
+.additional-match-info-heading {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .latest-match-details {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+
+  .logo-team-match-details {
+    border: none;
+    width: 60%;
+    padding: 0;
+  }
+
+  .competing-team-logo {
+    width: 140px;
+  }
+
+  .competing-team {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  .match-date {
+    font-size: 20px;
+  }
+
+  .match-info {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .additional-match-info-container {
+    width: 40%;
+    text-align: end;
+  }
+
+  .additional-match-info-heading {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 992px) {
+  .competing-team-logo {
+    width: 200px;
+  }
+}
